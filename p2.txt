@@ -1,4 +1,4 @@
-2a. 
-2b. 
-2c. 
-2d. 
+2a. std::forward<int>(a), std::forward<double>(b), std::forward<char>(c)
+2b. (f(a) + 1), (f(b) + 1), (f(c) + 1)
+2c. std::tuple<int, double, char>
+2d. std::tuple<std::vector<int>, std::vector<double>, std::vector<char>>

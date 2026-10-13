@@ -1,7 +1,7 @@
-Hash table:
+Hash table: memory cost O(M), access speed O(1), may need rehashing while maintenance.
 
-Map:
+Map: memory cost O(M), access speed O(log M), maintenance O(log M)
 
-Sparse mapping 1:
+Sparse mapping 1: memory cost O(NK), access speed O(1) and cache-friendly for accessing multiple component types of one entity, relatively easy maintenance
 
-Sparse mapping 2:
+Sparse mapping 2: memory cost O(NK), access speed O(1) and cache-friendly for accessing one component type across many entities, relatively easy maintenance
